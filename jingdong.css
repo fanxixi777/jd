@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+.ad {
+  background-image: url(花.JPG);
+  height: 60px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -500px;
+}
+.nav {
+  width: 100%;
+  height: 30px;
+  background-color: #ddd;
+  border-bottom: 1px #e3e4e5 solid;
+}
+.nav .nav-center {
+  width: 1190px;
+  height: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+  font-size: 10px;
+  color: gray;
+}
+.nav .nav-center .nav-left .nav-leftli {
+  position: relative;
+}
+.nav .nav-center .nav-left .nav-leftli .nav-leftli1 {
+  padding: 0 16px 0px 16px;
+  height: 28px;
+  display: block;
+  line-height: 28px;
+  z-index: 1;
+  position: relative;
+  border: 1px transparent solid;
+}
+.nav .nav-center .nav-left .nav-leftli .nav-leftli2 {
+  width: 300px;
+  border: 1px #e3e4e5 solid;
+  position: absolute;
+  left: 0px;
+  top: 30px;
+  padding: 10px;
+  background-color: white;
+  display: none;
+}
+.nav .nav-center .nav-left .nav-leftli .nav-leftli2 .city1 {
+  overflow: hidden;
+  line-height: 24px;
+}
+.nav .nav-center .nav-left .nav-leftli .nav-leftli2 .city1 .item {
+  width: 60px;
+  height: 24px;
+  float: left;
+  padding: 2px 0;
+}
+.nav .nav-center .nav-left .nav-leftli .nav-leftli2 .city1 .item a {
+  width: 24px;
+  padding: 0 8px;
+}
+.nav .nav-center .nav-left .nav-leftli .nav-leftli2 .dotted-line {
+  width: 262px;
+  height: 0px;
+  border-bottom: 1px dotted #eee;
+}
+.nav .nav-center .nav-left .nav-leftli .nav-leftli2 .city2 {
+  margin: 10px;
+}
+.nav .nav-center .nav-left .nav-leftli .nav-leftli2 .city2 p {
+  margin: 9px 0px;
+}
+.nav .nav-center .nav-left .nav-leftli .nav-leftli2 .city2 .somecity {
+  overflow: hidden;
+}
+.nav .nav-center .nav-left .nav-leftli .nav-leftli2 .city2 .somecity li {
+  width: 140px;
+  height: 26px;
+  line-height: 26px;
+  float: left;
+}
+.nav .nav-center .nav-left .nav-leftli .nav-leftli2 .city2 .somecity a {
+  display: block;
+  width: 120px;
+}
+.nav .nav-center .nav-left .nav-leftli:hover .nav-leftli2 {
+  display: block;
+}
+.nav .nav-center .nav-left .nav-leftli:hover .nav-leftli1 {
+  border: 1px #e3e4e5 solid;
+  border-bottom: none;
+  background-color: white;
+  padding-bottom: 2px;
+}
+.nav .nav-center .nav-right {
+  display: flex;
+}
+.nav .nav-center .nav-right .dt {
+  padding: 0px 7px;
+}
+.nav .nav-center .nav-right li:nth-child(2n) {
+  width: 1px;
+  height: 12px;
+  background-color: #ccc;
+  line-height: 30px;
+  margin: 9px 5px 0px 5px;
+}
+.nav .nav-center .nav-right .nav-right-one {
+  margin-right: 8px;
+}
+.nav .nav-center .nav-right .nav-right-one a:nth-child(2) {
+  color: red;
+}
+.nav .nav-center .nav-right .nav-right-three {
+  position: relative;
+}
+.nav .nav-center .nav-right .nav-right-three .dorpdown-layer1 {
+  border: 1px transparent solid;
+  height: 28px;
+  border-bottom: none;
+  padding-bottom: 2px;
+}
+.nav .nav-center .nav-right .nav-right-three .dorpdown-layer2 {
+  width: 280px;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  border: 1px #e3e4e5 solid;
+  background-color: white;
+  display: none;
+}
+.nav .nav-center .nav-right .nav-right-three:hover .dorpdown-layer1 {
+  border: 1px #e3e4e5 solid;
+  background-color: white;
+  border-bottom: none;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 2px;
+}
+.nav .nav-center .nav-right .nav-right-three:hover .dorpdown-layer2 {
+  display: block;
+}
+.nav .nav-center .nav-right .nav-right-three .dorpdown-layer2 {
+  overflow: hidden;
+}
+.nav .nav-center .nav-right .nav-right-three .dorpdown-layer2 .dorpdown-layer21 {
+  padding: 10px 0 10px 15px;
+  height: 90px;
+}
+.nav .nav-center .nav-right .nav-right-three .dorpdown-layer2 .dorpdown-layer21 div {
+  width: 130px;
+  float: left;
+}
+.nav .nav-center .nav-right .nav-right-three .dorpdown-layer2 .dorpdown-layer22 {
+  width: 280px;
+  height: 0px;
+  border-bottom: 1px #e3e4e5 solid;
+  clear: both;
+}
+.nav .nav-center .nav-right .nav-right-three .dorpdown-layer2 .dorpdown-layer23 {
+  padding: 10px 0 10px 15px;
+  height: 60px;
+}
+.nav .nav-center .nav-right .nav-right-three .dorpdown-layer2 .dorpdown-layer23 div {
+  width: 130px;
+  float: left;
+}
+.nav .nav-center .nav-right .nav-right-five {
+  position: relative;
+}
+.nav .nav-center .nav-right .nav-right-five .dorpdown-layer1 {
+  border: transparent 1px solid;
+  border-bottom: none;
+  padding-bottom: 2px;
+  height: 28px;
+}
+.nav .nav-center .nav-right .nav-right-five .dorpdown-layer2 {
+  width: 157px;
+  border: 1px #e3e4e5 solid;
+  background-color: white;
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+}
+.nav .nav-center .nav-right .nav-right-five .dorpdown-layer2 .dorpdown-layer21 {
+  padding: 10px 0 10px 15px;
+  overflow: hidden;
+}
+.nav .nav-center .nav-right .nav-right-five .dorpdown-layer2 .dorpdown-layer21 div {
+  width: 60px;
+  float: left;
+}
+.nav .nav-center .nav-right .nav-right-five .dorpdown-layer2 .dorpdown-layer21 .last {
+  width: 100px;
+}
+.nav .nav-center .nav-right .nav-right-five:hover .dorpdown-layer2 {
+  display: block;
+}
+.nav .nav-center .nav-right .nav-right-five:hover .dorpdown-layer1 {
+  border: 1px #e3e4e5 solid;
+  border-bottom: none;
+  padding-bottom: 2px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.nav .nav-center .nav-right .nav-right-six {
+  position: relative;
+}
+.nav .nav-center .nav-right .nav-right-six .dorpdown-layer1 {
+  border: transparent 1px solid;
+  border-bottom: none;
+  padding-bottom: 2px;
+  height: 28px;
+}
+.nav .nav-center .nav-right .nav-right-six .dorpdown-layer2 {
+  width: 170px;
+  border: 1px #e3e4e5 solid;
+  background-color: white;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  display: none;
+  padding: 10px 0;
+  line-height: 24px;
+  overflow: hidden;
+}
+.nav .nav-center .nav-right .nav-right-six .dorpdown-layer2 .client,
+.nav .nav-center .nav-right .nav-right-six .dorpdown-layer2 .business {
+  margin-left: 10px;
+  font-weight: 700;
+  color: #666;
+}
+.nav .nav-center .nav-right .nav-right-six .dorpdown-layer2 .line {
+  border-bottom: 1px #e3e4e5 dotted;
+  padding: 5px 0;
+  clear: both;
+}
+.nav .nav-center .nav-right .nav-right-six .dorpdown-layer2 .item {
+  width: 70px;
+  padding-left: 15px;
+  float: left;
+  overflow: hidden;
+}
+.nav .nav-center .nav-right .nav-right-six .dorpdown-layer2 .business {
+  padding-top: 5px;
+}
+.nav .nav-center .nav-right .nav-right-six:hover .dorpdown-layer2 {
+  display: block;
+}
+.nav .nav-center .nav-right .nav-right-six:hover .dorpdown-layer1 {
+  border: 1px #e3e4e5 solid;
+  border-bottom: none;
+  background-color: white;
+  padding-bottom: 2px;
+  z-index: 1;
+  position: relative;
+}
+.nav .nav-center .nav-right .nav-right-senven {
+  position: relative;
+}
+.nav .nav-center .nav-right .nav-right-senven .dorpdown-layer1 {
+  border: 1px transparent solid;
+  border-bottom: none;
+  height: 28px;
+  padding-bottom: 2px;
+}
+.nav .nav-center .nav-right .nav-right-senven .dorpdown-layer2 {
+  border: 1px #e3e4e5 solid;
+  width: 1188px;
+  background-color: white;
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: -84px;
+  padding: 15px 0;
+}
+.nav .nav-center .nav-right .nav-right-senven .dorpdown-layer2 .item div {
+  width: 85px;
+  float: left;
+}
+.nav .nav-center .nav-right .nav-right-senven .dorpdown-layer2 .dorpdown-layer21 {
+  float: left;
+  width: 340px;
+  padding-left: 20px;
+}
+.nav .nav-center .nav-right .nav-right-senven .dorpdown-layer2 .dorpdown-layer22 {
+  float: left;
+  width: 255px;
+  padding-left: 20px;
+  border-left: 1px dotted #e3e4e5;
+}
+.nav .nav-center .nav-right .nav-right-senven .dorpdown-layer2 .dorpdown-layer23 {
+  float: left;
+  width: 255px;
+  padding-left: 20px;
+  border-left: 1px dotted #e3e4e5;
+}
+.nav .nav-center .nav-right .nav-right-senven .dorpdown-layer2 .dorpdown-layer24 {
+  float: left;
+  width: 255px;
+  padding-left: 20px;
+  border-left: 1px dotted #e3e4e5;
+}
+.nav .nav-center .nav-right .nav-right-senven .dorpdown-layer2 p {
+  font-weight: bold;
+}
+.nav .nav-center .nav-right .nav-right-senven:hover .dorpdown-layer2 {
+  display: block;
+}
+.nav .nav-center .nav-right .nav-right-senven:hover .dorpdown-layer1 {
+  border: 1px #e3e4e5 solid;
+  border-bottom: none;
+  background-color: white;
+  margin-bottom: 2px;
+  z-index: 1;
+  position: relative;
+}
